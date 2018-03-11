@@ -3,6 +3,7 @@ import os.path
 from bs4 import BeautifulSoup
 import pickle
 import json
+from collections import OrderedDict
 
 
 my_path = os.path.abspath(os.path.dirname(__file__))
@@ -10,23 +11,19 @@ in_fname = os.path.join(my_path, '../data/gmnysmeddropbox.csv')
 p_fname = os.path.join(my_path, '../data/dec_data.p')
 j_fname = p_fname = os.path.join(my_path, '../data/dec_data.txt')
 
-def determine_type(location):
-    if 'College' in location:
-        return 'School'
-    for s in ['Hospital', 'VA']:
-        if s in location: return 'Hospital'
-    for s in ['Duane Reade', 'Walgreens', 'Pharmacy', 'CVS', 'Rx', 'Drug', 'Medicine Shoppe']:
-        if s in location: return 'Pharmacy'
-    for s in ['Police', 'Sheriff', 'Public Safety']:
-        if s in location: return 'Police'
-    for s in ['County', 'Town Hall', 'Municipal', 'Village']:
-        if s in location: return 'Government'
-    for s in ['Army', 'National Guard', 'Naval', 'Ft.']:
-        if s in location: return 'Military'
-    for s in ['Family Medicine']:
-        if s in location: return "Doctor's Office"
-    for s in ['ecopark']:
-        if s in location: return 'Recycling Center'
+location_to_location_type = OrderedDict([(('College'), 'School'), (('Hospital', 'VA'), 'Hospital'),
+                              (('Duane Reade', 'Walgreens', 'Pharmacy', 'CVS', 'Rx', 'Drug', 'Medicine Shoppe'), 'Pharmacy'),
+                              (('Police', 'Sheriff', 'Public Safety'), 'Police'),
+                              (('County', 'Town Hall', 'Municipal', 'Village'), 'Government'),
+                              (('Army', 'National Guard', 'Naval', 'Ft.'), 'Military'),
+                              (('Family Medicine'), "Doctor's Office"),
+                              (('ecopark'), 'Recycling Center')])
+
+def determine_location_type(location):
+    for location_list in location_to_location_type:
+        for s in location_list:
+            if s in location:
+                return location_to_location_type[location_list]
 
 def parse_description(html_desc):
     soup = BeautifulSoup(html_desc, 'html.parser').get_text()
@@ -39,7 +36,7 @@ def parse_description(html_desc):
             list_of_arrs[i] = new_arr
     list_of_arrs = [l for l in list_of_arrs if len(l) > 1]
     location_data = dict(list_of_arrs)
-    location_data['Type'] = determine_type(location_data['Location'])
+    location_data['Type'] = determine_location_type(location_data['Location'])
     return location_data
 
 with open(in_fname, 'r') as f:
