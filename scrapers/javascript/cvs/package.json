@@ -1,0 +1,16 @@
+{
+  "name": "take-back-parser",
+  "version": "1.0.0",
+  "description": "Step 1 (zip codes) 1. Find central zip code for each NYS county  2. Make hash table with central zip codes as key and an array of all the zip codes in that county",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "validate": "^3.0.1"
+  }
+}
