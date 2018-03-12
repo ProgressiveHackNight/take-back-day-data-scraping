@@ -295,6 +295,11 @@ var scrapeText = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 '                            '+
 '                        </td>'+
 '			</tr><tr>'+
+'				<td>West New York Police Department</td><td>428 60Th Street</td><td>West New York</td><td>NJ</td><td>07093</td><td>'+
+'                            '+
+'                            '+
+'                        </td>'+
+'			</tr><tr>'+
 '				<td>North Bergen Police Department </td><td>4233 Kennedy Blvd</td><td>North Bergen</td><td>NJ</td><td>07047</td><td>'+
 '                            24 hours a day, 7 days a week'+
 '                            <br>'+

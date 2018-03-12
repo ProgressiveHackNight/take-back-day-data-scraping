@@ -3,6 +3,7 @@ var scrapeCVS = {
 	url: 'http://www.cvssavingscentral.com/storelocator/SaferCommunities.aspx',
 	parms: {},
 	collection: [],
+	addresses: {},
 
 	toHTML: async function (http, parms) {
 		
@@ -34,32 +35,44 @@ var scrapeCVS = {
 
 	},
 
-	toJSON: function ($dom, model) {
+	toJSON: function ($dom, zip, model) {
 
 		var src = this.src,
-		collection = this.collection;
+		collection = this.collection,
+		addresses = this.addresses;
 
 		$dom('tr').each( (i, tr) => {
 			
-			var m;
-			
 			$children = $dom(tr).children();
 			
-			m = {
-				address: $children.eq(1).text(),
-				city: $children.eq(2).text(),
-				state: $children.eq(3).text(),
-				zip: $children.eq(4).text(),
-				src: src
+			var m, 
+			address = $children.eq(1).text(), 
+				city = $children.eq(2).text(),
+			state = $children.eq(3).text(),
+			local = $children.eq(4).text();
+			
+			if ($children.eq(3).text() === 'NY' &&
+						!addresses[address]) {
+
+				addresses[address] = 1;
+
+				m = {
+					address: address,
+					city: city,
+					state: state,
+					zip: local,
+					src: src,
+					county: zip
+				}
+				
+				var errors = model.validate(m);
+				
+				if (errors.length) {
+					throw new Error(errors);
+				}
+				
+				collection.push(m);
 			}
-			
-			var errors = model.validate(m);
-			
-			if (errors.length) {
-				throw new Error(errors);
-			}
-			
-			collection.push(m);
 			
 		});
 		
@@ -73,7 +86,7 @@ var scrapeCVS = {
 			src = this.src;
 
 		return new Promise (function (resolve, reject) {
-			resolve({src: src, collection: collection});
+			resolve({collection: collection});
 		});
 
 	}

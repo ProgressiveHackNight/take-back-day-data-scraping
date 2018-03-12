@@ -11,6 +11,8 @@ var schema = require('validate');
 
 		for (zip in zips) {
 
+			// 20 miles give quite a bit of overlap
+			//  - consider reducing to 10 miles
 			var parms = {zipcode: zip, distance: 20}
 
 			var html = await scraper.toHTML(fromHTTP.get, parms);
@@ -42,10 +44,15 @@ var schema = require('validate');
 					type: 'string',
 					required: true,
 					message: 'Src (string) required'
+				},
+				county: {
+					type: 'string',
+					required: true,
+					message: 'County (string) required'
 				}
 			});
 
-			scraper.toJSON($dom, model)
+			scraper.toJSON($dom, zip, model)
 
 		}
 
