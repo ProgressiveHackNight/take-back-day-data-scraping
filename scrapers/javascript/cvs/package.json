@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google/maps": "^0.4.5",
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^5.0.1",
     "validate": "^3.0.1"
   }
 }

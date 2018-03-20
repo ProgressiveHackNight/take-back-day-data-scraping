@@ -113,13 +113,37 @@ var scrapeCVS = {
 		
 	},
 
-	toCollection: function () {
+	toCollection: async function (geocode) {
 
-		var collection = this.collection,
+
+		// let's see one google api call working
+		//var resp = await geocode('1600 Amphitheatre Parkway, Mountain View, CA')
+		//	.then((resp, err) => {
+		//		console.log(resp, 43);
+		//	});
+
+		//console.log(resp[0].geometry.location, 43);
+
+		var locations = this.collection,
 			src = this.src;
 
+		// update the JSON with coordinates provided by google
+		for (var location = 0; location < locations.length; location++) {
+
+			var addr = locations[location]['Street Address'];
+			var city = locations[location]['City'];
+			var state = 'NY';
+
+			var latLong = await geocode(
+				`${addr}, ${city}, ${state}`
+			);
+
+			locations[location].Latitude = latLong[0].geometry.location.lat;
+			locations[location].Longitude = latLong[0].geometry.location.lng;
+		}
+
 		return new Promise (function (resolve, reject) {
-			resolve({collection: collection});
+			resolve({locations: locations});
 		});
 
 	},
@@ -127,7 +151,7 @@ var scrapeCVS = {
 	toFile: function (fs, r) {
 
 		var src = this.src;
-		var data = r.collection;
+		var data = r.locations;
 
 		// write to file ../data/cvs.json
 		fs.writeFile(`./data/${src}.json`, JSON.stringify(data), function(err) {

@@ -5,6 +5,15 @@ var validate = require('validate');
 var locationsModel = require('../models/locationsModel');
 var fs = require('fs');
 
+require('dotenv').config();
+var googleMapsClient = require('@google/maps').createClient({
+  key: process.env.GOOGLE_MAPS_API_KEY,
+  Promise: Promise
+});
+
+var geocodePromise = require('../lib/geocode-promise')
+												.bind(null, googleMapsClient);
+
  async function scrape (zips, scraper) {
 
 	var html, dom, json;
@@ -27,7 +36,7 @@ var fs = require('fs');
 
 		}
 
-		scraper.toCollection()
+		scraper.toCollection(geocodePromise)
 				// Send to DB
 				.then((r) => { scraper.toFile(fs, r); })
 				.catch((e) => { console.log(e) });
