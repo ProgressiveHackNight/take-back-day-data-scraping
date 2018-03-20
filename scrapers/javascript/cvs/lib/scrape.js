@@ -1,7 +1,9 @@
 //var fromHTTP = require('../lib/html-from-http');
 var fromHTTP = require('axios');
 var fromHTML = require('cheerio');
-var schema = require('validate');
+var validate = require('validate');
+var locationsModel = require('../models/locationsModel');
+var fs = require('fs');
 
  async function scrape (zips, scraper) {
 
@@ -19,46 +21,15 @@ var schema = require('validate');
 
 			var $dom = scraper.toDOM(fromHTML.load, html);
 
-			var model = schema({
-				address: {
-					type: 'string',
-					required: true,
-					message: 'Address (string) required'
-				},
-				city: {
-					type: 'string',
-					required: true,
-					message: 'City (string) required'
-				},
-				state: {
-					type: 'string',
-					required: true,
-					message: 'State (string) required'
-				},
-				zip: {
-					type: 'string',
-					required: true,
-					message: 'Zip (string) required'
-				},
-				src: {
-					type: 'string',
-					required: true,
-					message: 'Src (string) required'
-				},
-				county: {
-					type: 'string',
-					required: true,
-					message: 'County (string) required'
-				}
-			});
+			var model = locationsModel;
 
-			scraper.toJSON($dom, zip, model)
+			scraper.toJSON($dom, zip, validate(model));
 
 		}
 
 		scraper.toCollection()
 				// Send to DB
-				.then((r) => { console.log(r, 49) })
+				.then((r) => { scraper.toFile(fs, r); })
 				.catch((e) => { console.log(e) });
 }
 
