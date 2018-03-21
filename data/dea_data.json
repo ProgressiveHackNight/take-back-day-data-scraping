@@ -1,0 +1,2011 @@
+[
+   {
+      "location": "cvs ",
+      "street address": "2040 western avenue route 155",
+      "city": "albany",
+      "zip": 12203,
+      "type": "pharmacy"
+   },
+   {
+      "location": "four corners pharmacy",
+      "street address": "360 delaware avenue ",
+      "city": "delmar",
+      "zip": 12054,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs",
+      "street address": "260 delaware avenue",
+      "city": "delmar",
+      "zip": 12054,
+      "type": "pharmacy"
+   },
+   {
+      "location": "martin's foods of south burlington",
+      "street address": "1400 altamont ave ",
+      "city": "schenectady ",
+      "zip": 12303,
+      "type": "unknown"
+   },
+   {
+      "location": "forteen star enterprises ",
+      "street address": "3346 central ave",
+      "city": "albany",
+      "zip": 12206,
+      "type": "unknown"
+   },
+   {
+      "location": "kelly's pharmacy",
+      "street address": "34 hope plaza west ",
+      "city": "coxsackie",
+      "zip": 12192,
+      "type": "pharmacy"
+   },
+   {
+      "location": "marra's pharmacy ",
+      "street address": "217 remsen street po box 229",
+      "city": "cohoes",
+      "zip": 12047,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs",
+      "street address": "839 rte 146",
+      "city": "clifton park",
+      "zip": 12065,
+      "type": "pharmacy"
+   },
+   {
+      "location": "young's pharmacy & general store ",
+      "street address": "1636 burden lake road ",
+      "city": "averill park ",
+      "zip": 12018,
+      "type": "pharmacy"
+   },
+   {
+      "location": "nassuau pharmacy inc",
+      "street address": "3541 us route 20 ",
+      "city": "nassau ",
+      "zip": 12123,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "4999 state highway 30 ",
+      "city": "amsterdam",
+      "zip": 12010,
+      "type": "pharmacy"
+   },
+   {
+      "location": "martin's foods of south burlington",
+      "street address": "2967 route 9 ",
+      "city": "valatie ",
+      "zip": 12184,
+      "type": "unknown"
+   },
+   {
+      "location": "saugerties pharmacy ",
+      "street address": "250 main st ",
+      "city": "saugerties ",
+      "zip": 12477,
+      "type": "pharmacy"
+   },
+   {
+      "location": "usn-naval branch health clinic saratoga springs",
+      "street address": "one west ave suite 230 ",
+      "city": "saratoga springs",
+      "zip": 12866,
+      "type": "government"
+   },
+   {
+      "location": "saratoga hospital the ",
+      "street address": "211 church street ",
+      "city": "saratoga springs",
+      "zip": 12866,
+      "type": "hospital"
+   },
+   {
+      "location": "cvs ",
+      "street address": "34 congress st ",
+      "city": "saratoga springs",
+      "zip": 12866,
+      "type": "pharmacy"
+   },
+   {
+      "location": "progression",
+      "street address": "79 tinker street",
+      "city": "woodstock",
+      "zip": 12498,
+      "type": "unknown"
+   },
+   {
+      "location": "dedrick's pharmacy  ",
+      "street address": "86 north front street ",
+      "city": "kingston ",
+      "zip": 12401,
+      "type": "pharmacy"
+   },
+   {
+      "location": "stone's pharmacy ",
+      "street address": "bridge & main streets ",
+      "city": "lake luzerne",
+      "zip": 12846,
+      "type": "pharmacy"
+   },
+   {
+      "location": "the mary imogene bassett hosp",
+      "street address": "outpatient pharmacy 1 atwell rd ",
+      "city": "coopertown",
+      "zip": 13326,
+      "type": "hospital"
+   },
+   {
+      "location": "margaretville hospital pharmacy",
+      "street address": "42084 state highway rt 28",
+      "city": "margaretville",
+      "zip": 12455,
+      "type": "hospital"
+   },
+   {
+      "location": "o'conner hospital",
+      "street address": "c/o pharmacy 460 andes road",
+      "city": "delhi",
+      "zip": 13753,
+      "type": "hospital"
+   },
+   {
+      "location": "nicholson pharmacy ",
+      "street address": "36 schuyler street",
+      "city": "belmont",
+      "zip": 14813,
+      "type": "pharmacy"
+   },
+   {
+      "location": "alfred pharmacy",
+      "street address": "36 n main st ",
+      "city": "alfred ",
+      "zip": 14802,
+      "type": "pharmacy"
+   },
+   {
+      "location": "beavers pharmacy",
+      "street address": "7 main street ",
+      "city": "canisteo",
+      "zip": 14823,
+      "type": "pharmacy"
+   },
+   {
+      "location": "bartholomews pharmacy",
+      "street address": "2 elm street ",
+      "city": "franklinville",
+      "zip": 14737,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "c/o pharmacy 35 franklin plaza ",
+      "city": "dansville",
+      "zip": 14437,
+      "type": "unknown"
+   },
+   {
+      "location": "vic vena pharmacy ",
+      "street address": "1322 west state street ",
+      "city": "olean",
+      "zip": 14760,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "2401 w state street ",
+      "city": "olean ",
+      "zip": 14760,
+      "type": "unknown"
+   },
+   {
+      "location": "j rutowski & sons ",
+      "street address": "75 north main st ",
+      "city": "warsaw",
+      "zip": 14569,
+      "type": "unknown"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "309 w morris street ",
+      "city": " bath ",
+      "zip": 14810,
+      "type": "unknown"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "658 w main street ",
+      "city": "arcade ",
+      "zip": 14009,
+      "type": "unknown"
+   },
+   {
+      "location": "livonia-lakeville pharmacy ",
+      "street address": "5975 big tree rd po box 414 ",
+      "city": "lakeville",
+      "zip": 14480,
+      "type": "pharmacy"
+   },
+   {
+      "location": "attica pharmacy  ",
+      "street address": "2 market st ",
+      "city": "attica ",
+      "zip": 14011,
+      "type": "pharmacy"
+   },
+   {
+      "location": "bertrand chaffee hospital ",
+      "street address": "pharmacy department 224 east main st ",
+      "city": "springville",
+      "zip": 14141,
+      "type": "hospital"
+   },
+   {
+      "location": "holland pharmacy ",
+      "street address": "19 main st po box 21",
+      "city": "holland",
+      "zip": 14080,
+      "type": "pharmacy"
+   },
+   {
+      "location": "gerould's prof pharmacy ",
+      "street address": "98 w pulteney st",
+      "city": "corning ",
+      "zip": 14830,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "15 honeoye commons",
+      "city": "honeoye ",
+      "zip": 14471,
+      "type": "pharmacy"
+   },
+   {
+      "location": "market street apothecary",
+      "street address": "78 west market street ",
+      "city": "corning ",
+      "zip": 14830,
+      "type": "unknown"
+   },
+   {
+      "location": "alden pharmacy ",
+      "street address": "13203 broadway ",
+      "city": "alden",
+      "zip": 14004,
+      "type": "pharmacy"
+   },
+   {
+      "location": "j rutowski of elma ",
+      "street address": "2317 bowen rd po box 90 ",
+      "city": "elma ",
+      "zip": 14059,
+      "type": "unknown"
+   },
+   {
+      "location": "j rutowski of wanakah",
+      "street address": "s 4923 lakeshore road ",
+      "city": "hamburg",
+      "zip": 14075,
+      "type": "unknown"
+   },
+   {
+      "location": "frederick ferris thompson hos",
+      "street address": "350 parrish st",
+      "city": "canandaigua",
+      "zip": 14424,
+      "type": "hospital"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "3201 southwestern blvd. ",
+      "city": "orchard park",
+      "zip": 14127,
+      "type": "unknown"
+   },
+   {
+      "location": "broadway penora ",
+      "street address": "5175 broadway ",
+      "city": "depew ",
+      "zip": 14043,
+      "type": "unknown"
+   },
+   {
+      "location": "moden-giroux",
+      "street address": "transit hill pharmacy 6344 transit rd ",
+      "city": "depew ",
+      "zip": 14043,
+      "type": "unknown"
+   },
+   {
+      "location": "rml pharmacy ",
+      "street address": "4481 lakeshore rd. ",
+      "city": "hamburg",
+      "zip": 14075,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "c/o pharmacy 700 thruway plaza dr. ",
+      "city": "cheektowaga",
+      "zip": 14225,
+      "type": "unknown"
+   },
+   {
+      "location": "raina pharmacy ",
+      "street address": "113 south main st ",
+      "city": "manchester ",
+      "zip": 14504,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "1460 south park avenue",
+      "city": "buffalo ",
+      "zip": 14220,
+      "type": "unknown"
+   },
+   {
+      "location": "tile pharmacy",
+      "street address": "1031 cleveland drive",
+      "city": "cheektowaga",
+      "zip": 14225,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "1275 jefferson avenue ",
+      "city": " buffalo",
+      "zip": 14208,
+      "type": "unknown"
+   },
+   {
+      "location": "dexter prescription center",
+      "street address": "1453 jefferson ave ",
+      "city": " buffalo",
+      "zip": 14208,
+      "type": "unknown"
+   },
+   {
+      "location": "clifton springs hospital & clinic ",
+      "street address": "pharmacy dept 2 coulter road",
+      "city": "clifton springs ",
+      "zip": 14432,
+      "type": "hospital"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "650 delaware avenue ",
+      "city": "buffalo",
+      "zip": 14202,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "3500 main street",
+      "city": "amherst",
+      "zip": 14226,
+      "type": "unknown"
+   },
+   {
+      "location": "perna niagara ",
+      "street address": "dba: tops market #113 425 niagara st",
+      "city": "buffalo",
+      "zip": 14201,
+      "type": "unknown"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "2101 elmwood ave",
+      "city": "buffalo",
+      "zip": 14207,
+      "type": "unknown"
+   },
+   {
+      "location": "sea j pharmacy",
+      "street address": "765-767 morris park ave ",
+      "city": "bronx",
+      "zip": 10462,
+      "type": "pharmacy"
+   },
+   {
+      "location": "castle topp pharmacy",
+      "street address": "1370a castle hill ave",
+      "city": "bronx ",
+      "zip": 10462,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "1916 williamsbridge road ",
+      "city": "bronx ",
+      "zip": 10461,
+      "type": "pharmacy"
+   },
+   {
+      "location": "ny drugs",
+      "street address": "castle hill community pharmacy 706 castle hill ave ",
+      "city": "bronx",
+      "zip": 10473,
+      "type": "unknown"
+   },
+   {
+      "location": "drugdex pharmacy",
+      "street address": "1632 bruckner boulevard",
+      "city": "bronx",
+      "zip": 10473,
+      "type": "pharmacy"
+   },
+   {
+      "location": "mt carmel pharmacy ",
+      "street address": "705 east 187th street ",
+      "city": "bronx ",
+      "zip": 10458,
+      "type": "pharmacy"
+   },
+   {
+      "location": "j a k pharma ",
+      "street address": "2343 arthur avenue",
+      "city": "bronx",
+      "zip": 10458,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "3775 e. tremont ave.",
+      "city": "bronx",
+      "zip": 10465,
+      "type": "pharmacy"
+   },
+   {
+      "location": "allure specialty pharmacy",
+      "street address": "4377 bronx blvd ",
+      "city": "bronx",
+      "zip": 10466,
+      "type": "pharmacy"
+   },
+   {
+      "location": "rnd pharmacy",
+      "street address": "52 west burnside avenue ",
+      "city": "bronx",
+      "zip": 10453,
+      "type": "pharmacy"
+   },
+   {
+      "location": "avighna rx",
+      "street address": "7 bedford park blvd",
+      "city": "bronx ",
+      "zip": 10468,
+      "type": "unknown"
+   },
+   {
+      "location": "kingsbridge pharmacy ",
+      "street address": "145 w. kingsbridge rd.",
+      "city": "bronx ",
+      "zip": 10468,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "5564 broadway ",
+      "city": "bronx",
+      "zip": 10463,
+      "type": "pharmacy"
+   },
+   {
+      "location": "ami pharmacy",
+      "street address": "4180 broadyway",
+      "city": "new york",
+      "zip": 10033,
+      "type": "pharmacy"
+   },
+   {
+      "location": "gramatan pharmacy ",
+      "street address": "120 gramatan avenue",
+      "city": "mount vernon",
+      "zip": 10550,
+      "type": "pharmacy"
+   },
+   {
+      "location": "le-mac pharmacy",
+      "street address": "623 mc lean ave ",
+      "city": "yonkers ",
+      "zip": 10705,
+      "type": "pharmacy"
+   },
+   {
+      "location": "harpell chemists",
+      "street address": "12-65 150th street ",
+      "city": "whitestone ",
+      "zip": 11357,
+      "type": "unknown"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "89-11 northern blvd ",
+      "city": "jackson heights ",
+      "zip": 11372,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "13602 roosevelt avenue ",
+      "city": "flushing ",
+      "zip": 11354,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cedars pharmacy ",
+      "street address": "95-19 57 avenue ",
+      "city": "elmhurst",
+      "zip": 11373,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "100-02 queens boulevard ",
+      "city": "forest hills",
+      "zip": 11375,
+      "type": "pharmacy"
+   },
+   {
+      "location": "g.s.p. longterm care ",
+      "street address": "1567 central park avenue ",
+      "city": "yonkers",
+      "zip": 10710,
+      "type": "unknown"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "3101 ditmars blvd. ",
+      "city": "astoria ",
+      "zip": 11105,
+      "type": "pharmacy"
+   },
+   {
+      "location": "grassy sprain pharmacy ",
+      "street address": "640 tuckahoe road ",
+      "city": "yonkers",
+      "zip": 10710,
+      "type": "pharmacy"
+   },
+   {
+      "location": "b & b pharmacy",
+      "street address": "79-08 37th ave",
+      "city": "jackson height",
+      "zip": 11372,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "8420 broadway ",
+      "city": "elmhurst ",
+      "zip": 11373,
+      "type": "pharmacy"
+   },
+   {
+      "location": "franco pharmacy ",
+      "street address": "77-01 37th ave",
+      "city": "jackson heights",
+      "zip": 11372,
+      "type": "pharmacy"
+   },
+   {
+      "location": "r&p apothecary",
+      "street address": "d/b/a evergreen drugs 87-08 justice avenue ",
+      "city": "elmhurst",
+      "zip": 11373,
+      "type": "unknown"
+   },
+   {
+      "location": "duane reade",
+      "street address": "73-01 37th avenue",
+      "city": "jackson heights",
+      "zip": 11372,
+      "type": "pharmacy"
+   },
+   {
+      "location": "jackson heights drugs",
+      "street address": "bangladesh farmacia 73-21 37th road ",
+      "city": "jackson heights ",
+      "zip": 11372,
+      "type": "unknown"
+   },
+   {
+      "location": "duane reade",
+      "street address": "107-16 continental avenue ",
+      "city": "forest hills",
+      "zip": 11375,
+      "type": "pharmacy"
+   },
+   {
+      "location": "meru pharmacy ",
+      "street address": "2 park avenue",
+      "city": "yonkers",
+      "zip": 10703,
+      "type": "pharmacy"
+   },
+   {
+      "location": "isla drugs stores",
+      "street address": "1994 third ave ",
+      "city": "new york ",
+      "zip": 10029,
+      "type": "unknown"
+   },
+   {
+      "location": "ascan pharmacy ",
+      "street address": "101-21 metropolitan avenue ",
+      "city": "forset hills",
+      "zip": 11375,
+      "type": "pharmacy"
+   },
+   {
+      "location": "new rochelle prescription ctr",
+      "street address": "551 main st",
+      "city": "new rochelle",
+      "zip": 10801,
+      "type": "unknown"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "1230 nepperhan ave",
+      "city": "yonkers",
+      "zip": 10703,
+      "type": "pharmacy"
+   },
+   {
+      "location": "s & m pharmacy ",
+      "street address": "68-50 main street ",
+      "city": "flushing",
+      "zip": 11367,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "7960 metropolitan avenue ",
+      "city": "middle village ",
+      "zip": 11379,
+      "type": "pharmacy"
+   },
+   {
+      "location": "wellness center pharmacy ",
+      "street address": "40-13 broadway wellness center pharmacy",
+      "city": "astoria",
+      "zip": 11103,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "309 main st. ",
+      "city": "new rochelle ",
+      "zip": 10801,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "2290 central park avenue",
+      "city": "yonkers",
+      "zip": 10710,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "775 columbus avenue ",
+      "city": "new york ",
+      "zip": 10025,
+      "type": "pharmacy"
+   },
+   {
+      "location": "sterling pharmacy",
+      "street address": "38-01 bell blvd ",
+      "city": "bayside",
+      "zip": 11361,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "1231 madison avenue ",
+      "city": "new york ",
+      "zip": 10128,
+      "type": "pharmacy"
+   },
+   {
+      "location": "avonora ",
+      "street address": "149-01 union turnpike",
+      "city": "flushing ",
+      "zip": 11367,
+      "type": "unknown"
+   },
+   {
+      "location": "duane reade",
+      "street address": "1498 york avenue ",
+      "city": "new york",
+      "zip": 10075,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "2522 broadway ",
+      "city": "new york",
+      "zip": 10025,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "212-20 northern boulevard ",
+      "city": "bayside",
+      "zip": 11361,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "540 amsterdam avenue ",
+      "city": "new york",
+      "zip": 10024,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "1396 second avenue ",
+      "city": "new york ",
+      "zip": 10021,
+      "type": "pharmacy"
+   },
+   {
+      "location": "dobbs ferry pharmacy",
+      "street address": "18 cedar street ",
+      "city": "dobbs ferry ",
+      "zip": 10522,
+      "type": "pharmacy"
+   },
+   {
+      "location": "bayside pharmacy ",
+      "street address": "221-36 horace harding expressway ",
+      "city": "oakland gardens",
+      "zip": 11364,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "949 third avenue ",
+      "city": "new york ",
+      "zip": 10022,
+      "type": "pharmacy"
+   },
+   {
+      "location": "jan pharma",
+      "street address": "311 st. nicholas avenue ",
+      "city": "ridgewood",
+      "zip": 11385,
+      "type": "pharmacy"
+   },
+   {
+      "location": "yasik 2",
+      "street address": "54-56a myrtle ave ",
+      "city": "ridgewood ",
+      "zip": 11385,
+      "type": "unknown"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "630 lexington avenue",
+      "city": "new york",
+      "zip": 10022,
+      "type": "pharmacy"
+   },
+   {
+      "location": "jojan pharma",
+      "street address": "121 st. nicholas avenue",
+      "city": "brooklyn",
+      "zip": 11237,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "241 west 57th street ",
+      "city": "new york",
+      "zip": 10019,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "51 west 51 st street ",
+      "city": "new york",
+      "zip": 10019,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "150 east 42nd st. ",
+      "city": "new york ",
+      "zip": 10017,
+      "type": "pharmacy"
+   },
+   {
+      "location": "i & o pharmacy",
+      "street address": "669 manhattan avenue ",
+      "city": "brooklyn",
+      "zip": 11222,
+      "type": "pharmacy"
+   },
+   {
+      "location": "esco drug ",
+      "street address": "687 9th ave ",
+      "city": "new york ",
+      "zip": 10036,
+      "type": "unknown"
+   },
+   {
+      "location": "franhill pharmacy ",
+      "street address": "204-19 hillside avenue",
+      "city": "hollis",
+      "zip": 11423,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "661 8th avenue",
+      "city": "new york",
+      "zip": 10036,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "155 east 34th street ",
+      "city": "new york ",
+      "zip": 10016,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "219-39 89th avenue ",
+      "city": "queens village",
+      "zip": 11427,
+      "type": "pharmacy"
+   },
+   {
+      "location": "erx pharmaceutical",
+      "street address": "159 ralph ave ",
+      "city": "brooklyn",
+      "zip": 11233,
+      "type": "unknown"
+   },
+   {
+      "location": "marg pharmacy",
+      "street address": "76 graham ave. ",
+      "city": "brooklyn",
+      "zip": 11206,
+      "type": "pharmacy"
+   },
+   {
+      "location": "vijan pharma",
+      "street address": "312 ralph avenue",
+      "city": "brooklyn",
+      "zip": 11233,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "298 first ave ",
+      "city": "new york",
+      "zip": 10009,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "71 west 23rd street",
+      "city": "new york",
+      "zip": 10010,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "253 first avenue ",
+      "city": "new york",
+      "zip": 10003,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "1 union sq south ",
+      "city": "new york",
+      "zip": 10003,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "12704 guy r brewer blvd ",
+      "city": "jamaica",
+      "zip": 11434,
+      "type": "pharmacy"
+   },
+   {
+      "location": "marc's village pharmacy",
+      "street address": "31 east main street ",
+      "city": "elmsford",
+      "zip": 10523,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "201 glen st. ",
+      "city": "glen cove",
+      "zip": 11542,
+      "type": "pharmacy"
+   },
+   {
+      "location": "trotta's west street phar",
+      "street address": "15 halstedave",
+      "city": "harrison",
+      "zip": 10528,
+      "type": "unknown"
+   },
+   {
+      "location": "glen cove pharm",
+      "street address": "20 forest ave",
+      "city": "glen cove ",
+      "zip": 11542,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "1281 fulton st.",
+      "city": "brooklyn",
+      "zip": 11216,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "325 mamaroneck ave. ",
+      "city": "white plain",
+      "zip": 10605,
+      "type": "pharmacy"
+   },
+   {
+      "location": "avx rx ",
+      "street address": "3904 church ave ",
+      "city": "brooklyn ",
+      "zip": 11203,
+      "type": "unknown"
+   },
+   {
+      "location": "npl drugs",
+      "street address": "6602 ave u ",
+      "city": "brooklyn",
+      "zip": 11234,
+      "type": "unknown"
+   },
+   {
+      "location": "duane reade",
+      "street address": "296 flatbush ave ",
+      "city": "brooklyn ",
+      "zip": 11217,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "4901 kings highway ",
+      "city": "brooklyn",
+      "zip": 11234,
+      "type": "pharmacy"
+   },
+   {
+      "location": "aids healthcare foundation",
+      "street address": "475 atlantic ave ",
+      "city": "brooklyn ",
+      "zip": 11217,
+      "type": "unknown"
+   },
+   {
+      "location": "duane reade",
+      "street address": "40 wall street ",
+      "city": "new york ",
+      "zip": 10005,
+      "type": "pharmacy"
+   },
+   {
+      "location": "usman ",
+      "street address": "3001 clarendon rd ",
+      "city": "brooklyn",
+      "zip": 11226,
+      "type": "unknown"
+   },
+   {
+      "location": "meacham pharmacy",
+      "street address": "107 meacham avenue ",
+      "city": "elmont ",
+      "zip": 11003,
+      "type": "pharmacy"
+   },
+   {
+      "location": "besael",
+      "street address": "dba oak park pharmacy 205 prospect park west",
+      "city": "brooklyn ",
+      "zip": 11215,
+      "type": "pharmacy"
+   },
+   {
+      "location": "east 16 street pharmacy",
+      "street address": "1526 cortelyou rd ",
+      "city": "brooklyn",
+      "zip": 11226,
+      "type": "pharmacy"
+   },
+   {
+      "location": "franklin square pharmacy",
+      "street address": "925 hempstead turnpike",
+      "city": "franklin square",
+      "zip": 11010,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "2925 kings highway",
+      "city": "brooklyn",
+      "zip": 11229,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "44 north central avenue ",
+      "city": "valley stream ",
+      "zip": 11580,
+      "type": "pharmacy"
+   },
+   {
+      "location": "j & d chemists ",
+      "street address": "945 rosedale rd ",
+      "city": "valley stream",
+      "zip": 11581,
+      "type": "unknown"
+   },
+   {
+      "location": "siddiqui",
+      "street address": "1109 coney island ave ",
+      "city": "brooklyn",
+      "zip": 11230,
+      "type": "unknown"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "114 beverley rd.",
+      "city": "brooklyn ",
+      "zip": 11218,
+      "type": "pharmacy"
+   },
+   {
+      "location": "healthsmart",
+      "street address": "203 main street ",
+      "city": "ossining ",
+      "zip": 10562,
+      "type": "unknown"
+   },
+   {
+      "location": "shalom's pharmacy",
+      "street address": "1106 avenue k 1st floor ",
+      "city": "brooklyn",
+      "zip": 11230,
+      "type": "pharmacy"
+   },
+   {
+      "location": "ocean a & r pharmacy",
+      "street address": "2806 ocean avenue ",
+      "city": "brooklyn",
+      "zip": 11229,
+      "type": "pharmacy"
+   },
+   {
+      "location": "duane reade",
+      "street address": "5008 5th ave ",
+      "city": "brooklyn",
+      "zip": 11220,
+      "type": "pharmacy"
+   },
+   {
+      "location": "community care rx",
+      "street address": "89 front street ",
+      "city": "hempstead ",
+      "zip": 11550,
+      "type": "unknown"
+   },
+   {
+      "location": "king kullen pharmacies",
+      "street address": "c/o pharmacy 271 jericho turnpike ",
+      "city": "syosset ",
+      "zip": 11791,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "393 front street ",
+      "city": "hempstead ",
+      "zip": 11550,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "75 n. middletown rd. ",
+      "city": "pearl river ",
+      "zip": 10965,
+      "type": "pharmacy"
+   },
+   {
+      "location": "pearl river chemists",
+      "street address": "139 north middletown road ",
+      "city": "pearl river ",
+      "zip": 10965,
+      "type": "unknown"
+   },
+   {
+      "location": "fontak ",
+      "street address": "2000 north village avenue suite 107",
+      "city": "rockville center",
+      "zip": 11570,
+      "type": "pharmacy"
+   },
+   {
+      "location": "bardonia pharmacy",
+      "street address": "301 route 304 suite 4 ",
+      "city": "bardonia",
+      "zip": 10954,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "202 old country road ",
+      "city": "hicksville",
+      "zip": 11801,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "210 s broadway ",
+      "city": "hicksville",
+      "zip": 11801,
+      "type": "pharmacy"
+   },
+   {
+      "location": "st george pharmacy",
+      "street address": "99 stuyvesant pl ",
+      "city": "staten island",
+      "zip": 10301,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "2419 hempstead tpke. ",
+      "city": "east meadow ",
+      "zip": 11554,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "280 south main street",
+      "city": "new city",
+      "zip": 10956,
+      "type": "pharmacy"
+   },
+   {
+      "location": "town center pharmacy",
+      "street address": "575 main street ",
+      "city": "armonk ",
+      "zip": 10504,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "31 cavalry dr. ",
+      "city": "new city ",
+      "zip": 10956,
+      "type": "pharmacy"
+   },
+   {
+      "location": "plainview family pharmacy",
+      "street address": "142a manetto hill rd ",
+      "city": "plainview ",
+      "zip": 11803,
+      "type": "pharmacy"
+   },
+   {
+      "location": "king kullen pharmacies",
+      "street address": "3284 hempstead turnpike ",
+      "city": "levittown",
+      "zip": 11756,
+      "type": "pharmacy"
+   },
+   {
+      "location": "victory rx",
+      "street address": "395 forest avenue ",
+      "city": "staten island ",
+      "zip": 10301,
+      "type": "unknown"
+   },
+   {
+      "location": "north country drugs ",
+      "street address": "227-229 east main street ",
+      "city": "huntington ",
+      "zip": 11743,
+      "type": "unknown"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "403 atlantic avenue ",
+      "city": "freeport ",
+      "zip": 11520,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "2 e. jericho tpke ",
+      "city": "huntington station",
+      "zip": 11746,
+      "type": "pharmacy"
+   },
+   {
+      "location": "savall drug",
+      "street address": "393 no merrick ave ",
+      "city": "merrick",
+      "zip": 11566,
+      "type": "unknown"
+   },
+   {
+      "location": "l & w chemists ",
+      "street address": "25 southdown rd ",
+      "city": "huntington",
+      "zip": 11743,
+      "type": "unknown"
+   },
+   {
+      "location": "king kullen pharmacies",
+      "street address": "king kullen pharmacy #46 598 stewart avenue ",
+      "city": "bethpage ",
+      "zip": 11714,
+      "type": "pharmacy"
+   },
+   {
+      "location": "king kullen pharmacies",
+      "street address": "50 n. new york ave",
+      "city": "huntington",
+      "zip": 11743,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "812 forest ave. ",
+      "city": "staten island ",
+      "zip": 10310,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "1361 hylan blvd. ",
+      "city": "staten island",
+      "zip": 10305,
+      "type": "pharmacy"
+   },
+   {
+      "location": "northern westchester hospital ",
+      "street address": "400 e main st ",
+      "city": "mount kisco",
+      "zip": 10549,
+      "type": "hospital"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "1827 main st. ",
+      "city": "peekskill ",
+      "zip": 10566,
+      "type": "pharmacy"
+   },
+   {
+      "location": "ocean breeze associates",
+      "street address": "1817 hylan boulevard ",
+      "city": "staten island ",
+      "zip": 10305,
+      "type": "unknown"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "1933 victory blvd. ",
+      "city": "staten island",
+      "zip": 10314,
+      "type": "pharmacy"
+   },
+   {
+      "location": "transcript pharamcy of new york",
+      "street address": "87 hempstead turnpike ",
+      "city": "framingdale",
+      "zip": 11735,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "12 welcher ave.",
+      "city": "peekskill ",
+      "zip": 10566,
+      "type": "pharmacy"
+   },
+   {
+      "location": "dongan hills pharmacy ",
+      "street address": "1560 richmond rd",
+      "city": "staten island",
+      "zip": 10304,
+      "type": "pharmacy"
+   },
+   {
+      "location": "taconic pharmacy",
+      "street address": "3659 lee road ",
+      "city": "jefferson valley",
+      "zip": 10535,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "1551 richmond ave ",
+      "city": "staten island ",
+      "zip": 10314,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "5 indian rock plaza ",
+      "city": "suffern",
+      "zip": 10901,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "294 katonah avenue",
+      "city": "katonah",
+      "zip": 10536,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "640 arthur kill road ",
+      "city": "staten island",
+      "zip": 10308,
+      "type": "pharmacy"
+   },
+   {
+      "location": "the long island home",
+      "street address": "c/o pharmacy 400 sunrise highway ",
+      "city": "amityville ",
+      "zip": 11701,
+      "type": "unknown"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "20 merrick rd. ",
+      "city": "amityville",
+      "zip": 11701,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "1944 deer park ave deer park s/c",
+      "city": "deer park",
+      "zip": 11729,
+      "type": "pharmacy"
+   },
+   {
+      "location": "delco drugs & specialty pharmacy",
+      "street address": "3833 richmond ave ",
+      "city": "staten island ",
+      "zip": 10312,
+      "type": "pharmacy"
+   },
+   {
+      "location": "us army malogne cadet health clinic",
+      "street address": "2 thayer rd ",
+      "city": "west point ",
+      "zip": 10996,
+      "type": "government"
+   },
+   {
+      "location": "us army-keller community hospital",
+      "street address": "900 washington road ",
+      "city": "west point ",
+      "zip": 10996,
+      "type": "government"
+   },
+   {
+      "location": "super health pharmacy",
+      "street address": "6400 amboy road ",
+      "city": "staten island ",
+      "zip": 10309,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "499 montauk highway ",
+      "city": "west islip",
+      "zip": 11795,
+      "type": "pharmacy"
+   },
+   {
+      "location": "d and b pharmacy",
+      "street address": "222 oakridge commons ",
+      "city": "south salem ",
+      "zip": 10590,
+      "type": "pharmacy"
+   },
+   {
+      "location": "southside hospital",
+      "street address": "pharmacy department 301 east main street ",
+      "city": "bayshore",
+      "zip": 11706,
+      "type": "hospital"
+   },
+   {
+      "location": "fishkill pharmacy",
+      "street address": "1004 main st. building 554 ",
+      "city": "fishkill",
+      "zip": 12524,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "655 middle country rd ",
+      "city": "selden ",
+      "zip": 11784,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "4331 nesconset hwy. ",
+      "city": "port jefferson stn",
+      "zip": 11776,
+      "type": "pharmacy"
+   },
+   {
+      "location": "fairview hill realty ",
+      "street address": "4747 nesconset hwy ",
+      "city": "port jefferson station ",
+      "zip": 11776,
+      "type": "unknown"
+   },
+   {
+      "location": "king kullen pharmacies",
+      "street address": "440 sunrise highway",
+      "city": "north patchogue",
+      "zip": 11772,
+      "type": "pharmacy"
+   },
+   {
+      "location": "paak pharmacy",
+      "street address": "689 medford ave ",
+      "city": "patchogue",
+      "zip": 11772,
+      "type": "pharmacy"
+   },
+   {
+      "location": "king kullen pharmacies",
+      "street address": "5507-200 nesconset hwy rte 347 ",
+      "city": "mount sinai ",
+      "zip": 11766,
+      "type": "pharmacy"
+   },
+   {
+      "location": "king kullen pharmacies",
+      "street address": "1235 middle country rd ",
+      "city": "middle island ",
+      "zip": 11953,
+      "type": "pharmacy"
+   },
+   {
+      "location": "echo pharmacy ",
+      "street address": "56 echo avenue ",
+      "city": "miller place ",
+      "zip": 11764,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "1276 upper front st. ",
+      "city": "binghamton ",
+      "zip": 13901,
+      "type": "pharmacy"
+   },
+   {
+      "location": "clcressler",
+      "street address": "1179 vestal ave suite 1 ",
+      "city": "binghamton",
+      "zip": 13903,
+      "type": "unknown"
+   },
+   {
+      "location": "pharmscript ",
+      "street address": "441 commerce road suite 2 ",
+      "city": "vestal ",
+      "zip": 13850,
+      "type": "pharmacy"
+   },
+   {
+      "location": "our lady of lourdes memorial hospital",
+      "street address": "3101 shippers road suite 104 ",
+      "city": "vestal",
+      "zip": 13850,
+      "type": "hospital"
+   },
+   {
+      "location": "bartles pharmacy",
+      "street address": "10 lafayette park p.o. box 630 ",
+      "city": "oxford",
+      "zip": 13830,
+      "type": "pharmacy"
+   },
+   {
+      "location": "neel-path",
+      "street address": "6845 state route 434 po box 376 ",
+      "city": "apalachin ",
+      "zip": 13732,
+      "type": "unknown"
+   },
+   {
+      "location": "brown's pharmacy",
+      "street address": "225 main street p.o. box 308 ",
+      "city": "unadilla ",
+      "zip": 13849,
+      "type": "pharmacy"
+   },
+   {
+      "location": "community memorial hospital ",
+      "street address": "150 broad st pharmacy department ",
+      "city": "hamilton ",
+      "zip": 13346,
+      "type": "hospital"
+   },
+   {
+      "location": "catskill care enterprises",
+      "street address": "one foxcare drive ",
+      "city": "oneonta ",
+      "zip": 13820,
+      "type": "unknown"
+   },
+   {
+      "location": "cayuga medical center at ithaca",
+      "street address": "c/o pharamcy 101 dates drive 3rd floor ",
+      "city": "ithaca ",
+      "zip": 14850,
+      "type": "unknown"
+   },
+   {
+      "location": "riverside remedies rx",
+      "street address": "39 lower main street p.o. box 275",
+      "city": "callicoon ",
+      "zip": 12723,
+      "type": "unknown"
+   },
+   {
+      "location": "heritage village rehab and skilled nursing",
+      "street address": "4600 rt 60 po box 350 ",
+      "city": "gerry",
+      "zip": 14740,
+      "type": "unknown"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "2000 washington st ",
+      "city": "jamestown ",
+      "zip": 14701,
+      "type": "unknown"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "19 s main st ",
+      "city": "jamestown",
+      "zip": 14701,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "3955 vineyard dr. ",
+      "city": "dunkirk ",
+      "zip": 14048,
+      "type": "unknown"
+   },
+   {
+      "location": "herbst pharmacy",
+      "street address": "1 church street ",
+      "city": "port byron ",
+      "zip": 13140,
+      "type": "pharmacy"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "150 grant avenue ",
+      "city": "auburn ",
+      "zip": 13021,
+      "type": "pharmacy"
+   },
+   {
+      "location": "rx city pharamcy",
+      "street address": "161 genesee st suite 105 ",
+      "city": "auburn ",
+      "zip": 13021,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops pt",
+      "street address": "crego & downer roads ",
+      "city": "baldwinsville ",
+      "zip": 13027,
+      "type": "unknown"
+   },
+   {
+      "location": "galens",
+      "street address": "17 sodus street",
+      "city": "clyde",
+      "zip": 14433,
+      "type": "unknown"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "700 first north street ",
+      "city": "syracuse ",
+      "zip": 13208,
+      "type": "unknown"
+   },
+   {
+      "location": "oswego valley pharmacy",
+      "street address": "464 main street ",
+      "city": "phoenix ",
+      "zip": 13135,
+      "type": "pharmacy"
+   },
+   {
+      "location": "wayne ltc pharmacy",
+      "street address": "12042 main street ",
+      "city": "wolcott ",
+      "zip": 14590,
+      "type": "pharmacy"
+   },
+   {
+      "location": "harbor pharmacy ",
+      "street address": "918 james street suite b-1 ",
+      "city": "syracuse ",
+      "zip": 13203,
+      "type": "pharmacy"
+   },
+   {
+      "location": "university hospital-pharmacy ",
+      "street address": "at syracuse 750 east adams street ",
+      "city": "syracuse",
+      "zip": 13210,
+      "type": "hospital"
+   },
+   {
+      "location": "specialty rx ny",
+      "street address": "153-w commerical st east ",
+      "city": "rochester ",
+      "zip": 14445,
+      "type": "unknown"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "2601 sheridan drive ",
+      "city": "tonawanda ",
+      "zip": 14150,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "890 young street ",
+      "city": "tonawanda",
+      "zip": 14150,
+      "type": "unknown"
+   },
+   {
+      "location": "wurlitzer family pharmacy",
+      "street address": "521 division st north ",
+      "city": "tonawanda",
+      "zip": 14120,
+      "type": "pharmacy"
+   },
+   {
+      "location": "family medical pharmacy",
+      "street address": "120 plaza drive attn supervising pharamacist ",
+      "city": "williamsville",
+      "zip": 14221,
+      "type": "pharmacy"
+   },
+   {
+      "location": "gerould's prof phcy",
+      "street address": "215 hoffman street ",
+      "city": "elmira ",
+      "zip": 14905,
+      "type": "unknown"
+   },
+   {
+      "location": "gerould' professional pharmacy",
+      "street address": "130 so main street ",
+      "city": "elmira",
+      "zip": 14904,
+      "type": "pharmacy"
+   },
+   {
+      "location": "corning hospital",
+      "street address": "1  guthrie drive ",
+      "city": "corning ",
+      "zip": 14830,
+      "type": "hospital"
+   },
+   {
+      "location": "scripts plus ",
+      "street address": "10 central avenue ",
+      "city": "ilion ",
+      "zip": 13357,
+      "type": "unknown"
+   },
+   {
+      "location": "dpr equity ",
+      "street address": "1987 state route 52 ",
+      "city": "liberty ",
+      "zip": 12754,
+      "type": "unknown"
+   },
+   {
+      "location": "champlain valley physicians hospital",
+      "street address": "c/o pharmacy 214 cornelia street ",
+      "city": "plattsburgh",
+      "zip": 12901,
+      "type": "hospital"
+   },
+   {
+      "location": "condo pharmacy",
+      "street address": "28 montclam ave ",
+      "city": "plattsburgh",
+      "zip": 12901,
+      "type": "pharmacy"
+   },
+   {
+      "location": "keeseville pharmacy",
+      "street address": "1730 front street ",
+      "city": "keeseville ",
+      "zip": 12944,
+      "type": "pharmacy"
+   },
+   {
+      "location": "elizabethtown community hosp",
+      "street address": "75 park street po box 277 ",
+      "city": "elizabethtown",
+      "zip": 12932,
+      "type": "hospital"
+   },
+   {
+      "location": "cornerstone drug & gift ",
+      "street address": "72 champlain street attn: supervising pharmacist",
+      "city": "rouses point",
+      "zip": 12979,
+      "type": "unknown"
+   },
+   {
+      "location": "adirondack apothecary",
+      "street address": "4315  main street ",
+      "city": "port henry ",
+      "zip": 12974,
+      "type": "unknown"
+   },
+   {
+      "location": "alice hyde medical center",
+      "street address": "133 park street ",
+      "city": "malone",
+      "zip": 12953,
+      "type": "unknown"
+   },
+   {
+      "location": "dutchess chemists ",
+      "street address": "6032 route 82 ",
+      "city": "stanfordville ",
+      "zip": 12581,
+      "type": "unknown"
+   },
+   {
+      "location": "kelly's pharmacy",
+      "street address": "4852 rt 81 po box 422",
+      "city": "greenville",
+      "zip": 12083,
+      "type": "pharmacy"
+   },
+   {
+      "location": "millbrook pharmacy ",
+      "street address": "3272 franklin ave.",
+      "city": "millbrook",
+      "zip": 12545,
+      "type": "pharmacy"
+   },
+   {
+      "location": "towne centre pharmacy",
+      "street address": "2540 route 55 p.o. box 335 ",
+      "city": "poughquag ",
+      "zip": 12570,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "4170 albany post rd. ",
+      "city": "hyde park",
+      "zip": 12538,
+      "type": "pharmacy"
+   },
+   {
+      "location": "new platz pharmacy ",
+      "street address": "dedrick's pharmacy of new palt 190 main st ",
+      "city": "new platz",
+      "zip": 12561,
+      "type": "pharmacy"
+   },
+   {
+      "location": "sdja corporation",
+      "street address": "po box 777 attn: supervising pharmacist ",
+      "city": "rock hill ",
+      "zip": 12775,
+      "type": "unknown"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "201 s. james st. ",
+      "city": "rome",
+      "zip": 13440,
+      "type": "pharmacy"
+   },
+   {
+      "location": "black drugs",
+      "street address": "704 bleecker st ",
+      "city": "utica",
+      "zip": 13501,
+      "type": "unknown"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "7200 niagara falls blvd. ",
+      "city": "niagara falls",
+      "zip": 14304,
+      "type": "unknown"
+   },
+   {
+      "location": "todamar",
+      "street address": "320 s transit st ",
+      "city": "lockport ",
+      "zip": 14094,
+      "type": "unknown"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "390 west main st ",
+      "city": "batavia ",
+      "zip": 14020,
+      "type": "unknown"
+   },
+   {
+      "location": "casey group ",
+      "street address": "81 main street ",
+      "city": "batavia",
+      "zip": 14020,
+      "type": "unknown"
+   },
+   {
+      "location": "medina memorial hospital ",
+      "street address": "pharmacy department 200 ohio st ",
+      "city": "medina",
+      "zip": 14103,
+      "type": "hospital"
+   },
+   {
+      "location": "rosenkrans pharmacy",
+      "street address": "526 main st ",
+      "city": "medina",
+      "zip": 14103,
+      "type": "pharmacy"
+   },
+   {
+      "location": "highland hospital of rochester ",
+      "street address": "1000 south avenue 1st floor ",
+      "city": "rochester",
+      "zip": 14620,
+      "type": "hospital"
+   },
+   {
+      "location": "medical admin assoc ",
+      "street address": "777 south clinton avenue ",
+      "city": "rochester ",
+      "zip": 14620,
+      "type": "unknown"
+   },
+   {
+      "location": "trillium health ",
+      "street address": "259 monroe ave. attn supervising pharmacist ",
+      "city": "rochester",
+      "zip": 14607,
+      "type": "unknown"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "2100 monroe avenue ",
+      "city": "rochester ",
+      "zip": 14618,
+      "type": "pharmacy"
+   },
+   {
+      "location": "tops markets ",
+      "street address": "3507 mt. read blvd ",
+      "city": "greece",
+      "zip": 14616,
+      "type": "unknown"
+   },
+   {
+      "location": "rochester general hospital ",
+      "street address": "attn: pharmacy department 1425 portland avenue ",
+      "city": "rochester ",
+      "zip": 14621,
+      "type": "hospital"
+   },
+   {
+      "location": "walgreen eastern co. ",
+      "street address": "2100 ridge rd e ",
+      "city": "irondequoit",
+      "zip": 14622,
+      "type": "pharmacy"
+   },
+   {
+      "location": "cvs albany ",
+      "street address": "598 columbia turnpike east ",
+      "city": "greenbush ",
+      "zip": 12061,
+      "type": "pharmacy"
+   },
+   {
+      "location": "lewis county general hospital ",
+      "street address": "pharmacy department 7785 north state street ",
+      "city": "lowville ",
+      "zip": 13367,
+      "type": "hospital"
+   },
+   {
+      "location": "bonaparte pharmacy ",
+      "street address": "8210 main street ",
+      "city": "harrisville ",
+      "zip": 13648,
+      "type": "pharmacy"
+   },
+   {
+      "location": "carthage area hospital ",
+      "street address": "attn: pharmacy department 1001 west street",
+      "city": "carrthage",
+      "zip": 13619,
+      "type": "hospital"
+   },
+   {
+      "location": "us army- conner troop medical clinic ",
+      "street address": "10504 korengal valley blvd ",
+      "city": "fort drum ",
+      "zip": 13602,
+      "type": "government"
+   },
+   {
+      "location": "gouverneur hospital ",
+      "street address": "77 w barney street ",
+      "city": "gouverneur",
+      "zip": 13642,
+      "type": "hospital"
+   },
+   {
+      "location": "u & I ",
+      "street address": "po box 1260 attn: supervising pharmacist",
+      "city": "vernon",
+      "zip": 13476,
+      "type": "unknown"
+   },
+   {
+      "location": "claxton hepburn medical center ",
+      "street address": "c/o phramacy 214 king st ",
+      "city": "ogdensburg ",
+      "zip": 13669,
+      "type": "unknown"
+   }
+]
