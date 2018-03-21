@@ -4,18 +4,29 @@ var scrapeCVS = {
 	parms: {},
 	collection: [],
 	addresses: {},
+	processed: 0,
 
 	toHTML: async function (http, parms) {
+
 		
 		try {
+
+			var html;
 
 			var raw = await http(this.url, {params: parms, responseType: 'html'});
 
 			var text = raw.data.replace(/\s{2,}/g, '');
+
+			//this.processed === 10 && console.log(text);
 		
 			var regex = /<table class="address_table".+?<\/table>/;
 
-			var html = text.match(regex)[0];
+			var regexMatch = text.match(regex);
+
+			if (regexMatch !== null) {
+				html = text.match(regex)[0];
+			}
+
 
 			return html;
 
@@ -108,6 +119,10 @@ var scrapeCVS = {
 			}
 			
 		});
+
+		this.processed++;
+
+		console.log(`Processed: ${this.processed} of 62 zips`);
 		
 		return this;
 		
@@ -127,6 +142,8 @@ var scrapeCVS = {
 		var locations = this.collection,
 			src = this.src;
 
+		console.log('Using GoogleMaps to lookup Latitude/Longitude');
+
 		// update the JSON with coordinates provided by google
 		for (var location = 0; location < locations.length; location++) {
 
@@ -143,6 +160,7 @@ var scrapeCVS = {
 		}
 
 		return new Promise (function (resolve, reject) {
+			console.log('Latitude/Longitude updated successfully');
 			resolve({locations: locations});
 		});
 
@@ -159,7 +177,7 @@ var scrapeCVS = {
     	    return console.log(err);
     	}
 
-    	console.log("The file was saved!");
+    	console.log('The file was saved!');
 		}); 
 	}
 }

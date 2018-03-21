@@ -28,11 +28,13 @@ var geocodePromise = require('../lib/geocode-promise')
 
 			var html = await scraper.toHTML(fromHTTP.get, parms);
 
-			var $dom = scraper.toDOM(fromHTML.load, html);
+			if (html) {
+				var $dom = scraper.toDOM(fromHTML.load, html);
 
-			var model = locationsModel;
+				var model = locationsModel;
 
-			scraper.toJSON($dom, zip, validate(model));
+				scraper.toJSON($dom, zip, validate(model));
+			}
 
 		}
 
