@@ -21,7 +21,7 @@ npm v4.1.2
 After cloning the repository add Google API Key
 ```
 Get Google API Key (https://developers.google.com/console)
- - This key will need to be saved in .env file in ./cvs directory
+ - This key will need to be saved in .env file in cwd directory
  - GOOGLE_MAPS_API_KEY=<Your private API key>
 ```
 then,
@@ -29,7 +29,7 @@ then,
 npm install
 ```
 
-in ./cvs directory. 
+in cwd directory. 
 
 
 
@@ -38,7 +38,7 @@ Finally run
 ```
 node index.js
 ```
-from ./cvs directory.
+from cwd directory.
 
 If successful, you should see JSON file saved called ./cvs/data/cvs.json.
 
