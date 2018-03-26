@@ -1,5 +1,3 @@
-//var fromHTTP = require('../lib/html-from-http');
-var fromHTTP = require('axios');
 var fromHTML = require('cheerio');
 var validate = require('validate');
 var locationsModel = require('../models/locationsModel');
@@ -12,9 +10,21 @@ var googleMapsClient = require('@google/maps').createClient({
 });
 
 var geocodePromise = require('../lib/geocode-promise')
-												.bind(null, googleMapsClient);
+	.bind(null, googleMapsClient);
 
- async function scrape (zips, scraper) {
+ async function scrape (scraper, env) {
+
+	var fromHTTP, zips;
+
+	if (env === '--dev' || env === '--test') {
+		fromHTTP = require('../lib/html-from-http')(scraper.src);
+		zips = require('../data/zips-ny_bk_2.json');
+	}  else if (env === '--prod') {
+		fromHTTP = require('axios');
+		zips = require('../data/zips-ny.json');
+	}
+
+
 
 	var html, dom, json;
 	var collection = [];
@@ -22,17 +32,13 @@ var geocodePromise = require('../lib/geocode-promise')
 
 		for (zip in zips) {
 
-			// 20 miles give quite a bit of overlap
-			//  - consider reducing to 10 miles
-			var parms = {zipcode: zip, distance: 20}
-
-			var html = await scraper.toHTML(fromHTTP.get, parms);
+			var html = await scraper.toHTML(fromHTTP.get, zip);
 
 			if (html) {
 				var $dom = scraper.toDOM(fromHTML.load, html);
-
+			
 				var model = locationsModel;
-
+			
 				scraper.toJSON($dom, zip, validate(model));
 			}
 

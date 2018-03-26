@@ -1,9 +1,12 @@
-var http = require('../data/scrape-addresses.js');
+function HTMLfromHTTP (src) {
 
-var HTMLfromHTTP = {
-	get: async function (url, parms) {
-		var resp = await http;
-		return {data: resp};
+	var http = require(`../data/scrape-addresses-${src}.js`);
+	
+	return {
+		get: async function (url, parms) {
+			var resp = await http;
+			return {data: resp}
+		}
 	}
 }
 

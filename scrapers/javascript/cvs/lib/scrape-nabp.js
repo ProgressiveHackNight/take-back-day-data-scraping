@@ -1,13 +1,13 @@
-var scrapeCVS = {
-	src: 'cvs',
-	url: 'http://www.cvssavingscentral.com/storelocator/SaferCommunities.aspx',
+var scrapeNABP = {
+	src: 'nabp',
+	url: 'https://nabp.pharmacy/initiatives/awarxe/drug-disposal-locator/',
 	collection: [],
 	addresses: {},
 	processed: 0,
 
 	toHTML: async function (http, zip) {
 
-		var parms = {zipcode: zip, distance: 20};		
+		var parms = {zipcode: zip, distance: 25};		
 
 		try {
 
@@ -17,7 +17,7 @@ var scrapeCVS = {
 
 			var text = raw.data.replace(/\s{2,}/g, '');
 		
-			var regex = /<table class="address_table".+?<\/table>/;
+			var regex = /<div class="ddl__locations-list">.+?<\/article><\/div>/;
 
 			var regexMatch = text.match(regex);
 
@@ -38,8 +38,6 @@ var scrapeCVS = {
 		
 		var $dom = dom(html);
 
-		$dom('tr').eq(0).remove();
-
 		return $dom;
 
 	},
@@ -56,23 +54,44 @@ var scrapeCVS = {
 			'hospital,va': 'Hospital',
 			'medicine': 'Doctor\'s Office',
 			'ecopark': 'Recycling Center',
-			'police,sheriff,safety,precinct': 'Police',
+			'police,sheriff,safety,precinct,pd': 'Police',
 			'county,town,municipal,village': 'Government'
 		};
 
-		$dom('tr').each( (i, tr) => {
+		$dom('article').each( (i, a) => {
 			
-			$children = $dom(tr).children();
+			var note = $dom(a).find('p').eq(1).html().replace(/<br.*?\/?>/, ' ');
+			
+			var fullAddress = $dom(a).find('.col--minor--larger').html().replace(/<a.+\/a>(<br>)\1{0,}/, '');
+			var parseAddress = fullAddress.split('<br>');
+			
+			var street, csz;
+			
+			if (!parseAddress[2]) {
+				street = parseAddress[0];
+				csz = parseAddress[1];
+			} else {
+				street = parseAddress[1];
+				csz = parseAddress[2];
+			}
+			
+			var city = csz.split(', ')[0];
+			var state = csz.split(', ')[1];
+			var zip = csz.split(', ')[1].replace('New York ', '');
+			var latlng = $dom(a).find('.direction').attr('href').replace(/.+\?daddr=/, '');
+			var lat = latlng.split(',')[0];
+			var lng = latlng.split(',')[1];
 			
 			var m, 
-				name = $children.eq(0).text(), 
-			address = $children.eq(1).text(), 
-				city = $children.eq(2).text(),
-			zip = $children.eq(4).text(),
+				name = $dom(a).find('.title').text(), 
+			address = street, 
+				city = city,
+			zip = zip,
 				type = 'Unknown',
+			phone = $dom(a).find('.tel-link').text(),
 				searching = true;
 			
-			if ($children.eq(3).text() === 'NY' &&
+			if (state.indexOf('New York') > -1 &&
 						!addresses[address]) {
 
 				addresses[address] = 1;
@@ -102,9 +121,11 @@ var scrapeCVS = {
 					'Street Address': address,
 					'City': city,
 					'Zip': zip,
-					'Latitude': 'required',
-					'Longitude': 'required',
-					'Type': type
+					'Latitude': lat,
+					'Longitude': lng,
+					'Type': type,
+					'Phone': phone, 
+					'Note': note
 				}
 				
 				var errors = model.validate(m);
@@ -121,7 +142,7 @@ var scrapeCVS = {
 		this.processed++;
 
 		console.log(`Processed: ${this.processed} of 62 zips`);
-		
+		console.log(collection);
 		return this;
 		
 	},
@@ -137,28 +158,10 @@ var scrapeCVS = {
 
 		//console.log(resp[0].geometry.location, 43);
 
-		var locations = this.collection,
-			src = this.src;
-
-		console.log('Using GoogleMaps to lookup Latitude/Longitude');
-
-		// update the JSON with coordinates provided by google
-		for (var location = 0; location < locations.length; location++) {
-
-			var addr = locations[location]['Street Address'];
-			var city = locations[location]['City'];
-			var state = 'NY';
-
-			var latLong = await geocode(
-				`${addr}, ${city}, ${state}`
-			);
-
-			locations[location].Latitude = latLong[0].geometry.location.lat;
-			locations[location].Longitude = latLong[0].geometry.location.lng;
-		}
+		var locations = this.collection;
 
 		return new Promise (function (resolve, reject) {
-			console.log('Latitude/Longitude updated successfully');
+			//console.log('Latitude/Longitude updated successfully');
 			resolve({locations: locations});
 		});
 
@@ -180,4 +183,4 @@ var scrapeCVS = {
 	}
 }
 
-module.exports = scrapeCVS;
+module.exports = scrapeNABP;

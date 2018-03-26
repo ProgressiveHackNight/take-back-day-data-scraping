@@ -1,7 +1,17 @@
-var zips = require('./data/zips-ny.json');
-//var zips = require('./data/zips-ny_bk_2.json');
-//var zips = {'10024': []}
-var scrapeCVS = require('./lib/scrape-cvs');
 var scrape = require('./lib/scrape');
 
-scrape(zips, scrapeCVS);
+var args = process.argv;
+var env = ['--dev', '--test', '--prod'].indexOf(args[3]) > -1 ? args[3] : '--dev';
+
+var scraper = args[2];
+
+switch(scraper) {
+	case '--cvs':
+		scrape(require('./lib/scrape-cvs'), env);
+		break;
+	case '--nabp':
+		scrape(require('./lib/scrape-nabp'), env);
+		break;
+	default:
+		scrape(require('./lib/scrape-cvs'), env);
+}
