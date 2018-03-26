@@ -1,0 +1,625 @@
+[
+   {
+      "location ": "Lincoln Pharmacy",
+      "street address": "300 Morton Ave",
+      "city": "Albany",
+      "zip": 12209,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Kelly's Pharmacy",
+      "street address": "4852 Rt. 81",
+      "city": "Greenville",
+      "zip": 12083,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Watervliet Pharmacy",
+      "street address": "601 19th St.",
+      "city": "Watervliet",
+      "zip": 12189,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Marra's Pharmacy",
+      "street address": "217 Remsen Street",
+      "city": "Cohoes",
+      "zip": "12047?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Kelly's Pharmacy #2",
+      "street address": "12189 Route 9 W?",
+      "city": "West Coxsackie",
+      "zip": "12192?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Village Apothecary",
+      "street address": "31 Market Street?",
+      "city": "Saugerties",
+      "zip": "12477?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Woodstock Apothecary",
+      "street address": "79 Tinker St?",
+      "city": "Woodstock",
+      "zip": "12498?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Millers Drug Store",
+      "street address": "778 Main?",
+      "city": "Margaretville",
+      "zip": "12455?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Stone's Pharmacy",
+      "street address": "1 Main St.?",
+      "city": "Lake Luzerne",
+      "zip": "12846?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Alfred Pharmacy",
+      "street address": "36 North Main Street?",
+      "city": "Alfred",
+      "zip": 14802,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Prizels Pharmacy",
+      "street address": "535 Main St?",
+      "city": "Olean",
+      "zip": "14760?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Quinlan Pharmacy",
+      "street address": "107 N Main Street?",
+      "city": "Wayland",
+      "zip": "14572?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Ellicottville Pharmacy",
+      "street address": "6133 Route 219 Ste 1004?",
+      "city": "Ellicottville?",
+      "zip": "14731?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Livonia Pharmacy",
+      "street address": "5975 Big Tree Rd?",
+      "city": "Lakeville ",
+      "zip": "14480?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Larwood Pharmacy",
+      "street address": "597 Oakwood Ave?",
+      "city": "East Aurora",
+      "zip": "14052?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Marion Pharmacy",
+      "street address": "322 E. 194th Street?",
+      "city": "Bronx",
+      "zip": "10458?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Manson Pharmacy",
+      "street address": "137-69 Queens Blvd?",
+      "city": "Briarwood",
+      "zip": "11435?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Desais Pharmacy",
+      "street address": "228 W 238th St?",
+      "city": "Bronx?",
+      "zip": "10463?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "UN Plaza Pharmacy",
+      "street address": "800 Second Ave?",
+      "city": "New York?",
+      "zip": "10017?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Esco Drug",
+      "street address": "687 9th Ave?",
+      "city": "New York",
+      "zip": "10036?",
+      "type": "unknown "
+   },
+   {
+      "location ": "Dale Pharmacy & Surgical",
+      "street address": "108-13 Jamaica Ave?",
+      "city": "Jamaica",
+      "zip": "11418?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Elm Drugs",
+      "street address": "56 7th Avenue?",
+      "city": "New York",
+      "zip": "10011?",
+      "type": "unknown"
+   },
+   {
+      "location ": "C O Bigelow Chemists",
+      "street address": "414 6th Avenue?",
+      "city": "New York?",
+      "zip": "10011?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Hudson Square Pharmacy",
+      "street address": "345 Hudson St?",
+      "city": "New York",
+      "zip": "10014?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "King's Tribeca Pharmacy",
+      "street address": "5 Hudson Street?",
+      "city": "New York",
+      "zip": "10013?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Rite Choice Pharmacy",
+      "street address": "1484 Fulton Street?",
+      "city": "Brooklyn ",
+      "zip": "11216?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Crossbay Chemists",
+      "street address": "15814 Crossbay Blvd?",
+      "city": "Jamaica",
+      "zip": "11414?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Parkdale Pharmacy",
+      "street address": "945 Rosedale Rd?",
+      "city": "Valley Stream",
+      "zip": "11581?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Xtra Care Pharmacy",
+      "street address": "75 S Main St?",
+      "city": "Freeport",
+      "zip": "11520?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Nates Pharmacy",
+      "street address": "812 Forest Avenue?",
+      "city": "Staten Island",
+      "zip": "10310?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Nates Pharmacy",
+      "street address": "307 Sand Lane?",
+      "city": "Staten Island",
+      "zip": 10305,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Keezac Pharmacy",
+      "street address": "109 Bedford Ave?",
+      "city": "Bellmore",
+      "zip": "11710?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Dongan Hills Pharmacy",
+      "street address": "1560 Richmond Rd?",
+      "city": "Staten Island",
+      "zip": "10304?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Drug World Pharmacies",
+      "street address": "182 South Main Street?",
+      "city": "New City",
+      "zip": "10956?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Yorktown Pharmacy",
+      "street address": "1905 Commerce St?",
+      "city": "Yorktown Heights",
+      "zip": "10598?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "SaluMed Pharmacy",
+      "street address": "1805 5th Ave?",
+      "city": "Bay Shore",
+      "zip": "11706?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Winn Drugs",
+      "street address": "62 Indian Head Rd?",
+      "city": "Kings Park",
+      "zip": 11754,
+      "type": "unknown"
+   },
+   {
+      "location ": "SaluMed Pharmacy",
+      "street address": "753 Commack Rd?",
+      "city": "Brentwood",
+      "zip": "11717?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Islip Pharmacy And Surgical",
+      "street address": "437 Main Street?",
+      "city": "Islip",
+      "zip": "11751?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "The Pharmacy",
+      "street address": "711 Main St?",
+      "city": "Johnson City",
+      "zip": "13790?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Bartles Pharmacy Inc",
+      "street address": "10 Lafayette Park?",
+      "city": "Oxford",
+      "zip": "13830?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Palmer Pharmacy",
+      "street address": "131 East Green Street suite 2?",
+      "city": "Ithaca",
+      "zip": "14850?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Waverly Pharmacy",
+      "street address": "443 Cayuta Ave?",
+      "city": "Waverly ",
+      "zip": "14892?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Ellicottville Pharmacy",
+      "street address": "6133 Route 219 Ste 1004?",
+      "city": "Ellicottvill ?",
+      "zip": 14731,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Larwood Pharmacy",
+      "street address": "597 Oakwood Ave?",
+      "city": "East Aurora ?",
+      "zip": 14052,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Alfred Pharmacy",
+      "street address": "36 North Main Street?",
+      "city": "Alfred",
+      "zip": "14802?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Alden Pharmacy",
+      "street address": "13203 Broadway St?",
+      "city": "Alden",
+      "zip": "14004?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Transit Hill Pharmacy",
+      "street address": "6344 Transit Rd?",
+      "city": "Depew",
+      "zip": "14043?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "C&J's Northside Pharmacy",
+      "street address": "2301 Teall Ave?",
+      "city": "Syracuse",
+      "zip": "13206?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "South Seneca Pharmacy",
+      "street address": "7115 North Main Street?",
+      "city": "Ovid",
+      "zip": "14521?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Palmer Pharmacy",
+      "street address": "2083 Rt. 96?",
+      "city": "Trumansburg",
+      "zip": "14886?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Hendersons Drug Store",
+      "street address": "126 Main St?",
+      "city": "Penn Yan",
+      "zip": "14527?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Water Street Pharmacy",
+      "street address": "14 Water St?",
+      "city": "Dundee?",
+      "zip": 14837,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "South Seneca Pharmacy",
+      "street address": "7115 North Main Street?",
+      "city": "Ovid?",
+      "zip": 14521,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Palmer Pharmacy",
+      "street address": "2083 Rt. 96?",
+      "city": "Trumansburg??",
+      "zip": 14886,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Hendersons Drug Store",
+      "street address": "126 Main St?",
+      "city": "Penn Yan?",
+      "zip": 14527,
+      "type": "unknown"
+   },
+   {
+      "location ": "Ellicottville Pharmacy",
+      "street address": "6133 Route 219 Ste 1004?",
+      "city": "Ellicottville",
+      "zip": "14731?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Black Rock Pharmacy",
+      "street address": "431 Tonawanda St?",
+      "city": "Buffalo",
+      "zip": "14207?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Waverly Pharmacy",
+      "street address": "443 Cayuta Ave?",
+      "city": "Waverly",
+      "zip": "14892?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Water Street Pharmacy",
+      "street address": "14 Water St?",
+      "city": "Dundee",
+      "zip": "14837?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Palmer Pharmacy",
+      "street address": "2083 Rt. 96?",
+      "city": "Trumansburg?",
+      "zip": 14886,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "The Pharmacy",
+      "street address": "711 Main St?",
+      "city": "Johnson City ?",
+      "zip": 13790,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Condo Pharmacy",
+      "street address": "28 Montcalm Ave?",
+      "city": "Plattsburgh",
+      "zip": "12901?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Keeseville Pharmacy",
+      "street address": "1730 Front St?",
+      "city": "Keeseville",
+      "zip": "12944?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Cornerstone Drug & Gift",
+      "street address": "72 Champlain Street?",
+      "city": "Rouses Point",
+      "zip": "12979?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Kelly's Pharmacy",
+      "street address": "4852 Rt. 81?",
+      "city": "Greenville",
+      "zip": "12083?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Lincoln Pharmacy",
+      "street address": "300 Morton Ave?",
+      "city": "Albany?",
+      "zip": "12209?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Watervliet Pharmacy",
+      "street address": "601 19th St.?",
+      "city": "Watervliet",
+      "zip": "12189?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Drug World of Amenia",
+      "street address": "5094 Route 22?",
+      "city": "Amenia",
+      "zip": "12501?",
+      "type": "unknown"
+   },
+   {
+      "location ": "The Family Drug Store",
+      "street address": "524 Broadway?",
+      "city": "Monticello",
+      "zip": "12701?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Matthews Pharmacy",
+      "street address": "101 Canal St?",
+      "city": "Ellenville",
+      "zip": "12428?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Rock Hill Healthmart Pharmacy",
+      "street address": "253 Rock Hill Dr?",
+      "city": "Rock Hill?",
+      "zip": "12775?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Hudson View Pharmacy",
+      "street address": "147 Lake Street?",
+      "city": "Newburgh ?",
+      "zip": "12550?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Drug World of Cold Spring",
+      "street address": "55 Chestnut Street?",
+      "city": "Cold Spring",
+      "zip": "10516?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Washingtonville Pharmacy",
+      "street address": "6 Depot St?",
+      "city": "Washingtonville ",
+      "zip": "10992?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Blooming Grove Pharmacy",
+      "street address": "1200 State Route 208?",
+      "city": "Monroe ",
+      "zip": "10950?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Island Prescription Center",
+      "street address": "1728 Grand Island Blvd?",
+      "city": "Grand Island",
+      "zip": "14072?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Wurlitzer Family Pharmacy",
+      "street address": "521 Division St?",
+      "city": "North Tonawanda",
+      "zip": "14120?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Summit Park Pharmacy",
+      "street address": "2578 Niagra Falls Blvd?",
+      "city": "Niagara Falls",
+      "zip": "14304?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Middleport Family Health Center",
+      "street address": "81 Rochester Rd?",
+      "city": "Middleport",
+      "zip": "14105?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Rosenkrans Pharmacy",
+      "street address": "526 Main St?",
+      "city": "Medina",
+      "zip": "14103?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Medicine Shoppe",
+      "street address": "142 E Center St?",
+      "city": "Medina",
+      "zip": "14103?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Transit Hill Pharmacy",
+      "street address": "6344 Transit Rd?",
+      "city": "Depew??",
+      "zip": 14043,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Larwood Pharmacy",
+      "street address": "597 Oakwood Ave?",
+      "city": "East Aurora??",
+      "zip": 14052,
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Livonia Pharmacy",
+      "street address": "5975 Big Tree Rd?",
+      "city": "Lakeville?",
+      "zip": "14480?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "R Drugs",
+      "street address": "222 Alexander St Ste 2700?",
+      "city": "Rochester",
+      "zip": "14607?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Wurlitzer Family Pharmacy",
+      "street address": "521 Division St?",
+      "city": "North Tonawanda?",
+      "zip": "14120?",
+      "type": "pharmacy "
+   },
+   {
+      "location ": "Island Prescription Center",
+      "street address": "1728 Grand Island Blvd?",
+      "city": "Grand Island?",
+      "zip": "14072?",
+      "type": "unknown"
+   },
+   {
+      "location ": "Quinlan Pharmacy",
+      "street address": "107 N Main Street?",
+      "city": "Wayland?",
+      "zip": 14572,
+      "type": "pharmacy "
+   }
+]
