@@ -16,10 +16,13 @@ var geocodePromise = require('../lib/geocode-promise')
 
 	var fromHTTP, zips;
 
-	if (env === '--dev' || env === '--test') {
+	if (env === '--dev') {
 		fromHTTP = require('../lib/html-from-http')(scraper.src);
 		zips = require('../data/zips-ny_bk_2.json');
-	}  else if (env === '--prod') {
+	}  else if (env === '--test') {
+		fromHTTP = require('axios');
+		zips = require('../data/zips-ny_bk_2.json');
+	}else if (env === '--prod') {
 		fromHTTP = require('axios');
 		zips = require('../data/zips-ny.json');
 	}

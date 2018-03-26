@@ -7,7 +7,7 @@ var scrapeNABP = {
 
 	toHTML: async function (http, zip) {
 
-		var parms = {zipcode: zip, distance: 25};		
+		var parms = {utf8: '✓', address: zip, distance: 20};		
 
 		try {
 
@@ -142,7 +142,7 @@ var scrapeNABP = {
 		this.processed++;
 
 		console.log(`Processed: ${this.processed} of 62 zips`);
-		console.log(collection);
+		
 		return this;
 		
 	},
@@ -150,18 +150,9 @@ var scrapeNABP = {
 	toCollection: async function (geocode) {
 
 
-		// let's see one google api call working
-		//var resp = await geocode('1600 Amphitheatre Parkway, Mountain View, CA')
-		//	.then((resp, err) => {
-		//		console.log(resp, 43);
-		//	});
-
-		//console.log(resp[0].geometry.location, 43);
-
 		var locations = this.collection;
 
 		return new Promise (function (resolve, reject) {
-			//console.log('Latitude/Longitude updated successfully');
 			resolve({locations: locations});
 		});
 
@@ -172,7 +163,7 @@ var scrapeNABP = {
 		var src = this.src;
 		var data = r.locations;
 
-		// write to file ../data/cvs.json
+		// write to file ../data/nabp.json
 		fs.writeFile(`./data/${src}.json`, JSON.stringify(data), function(err) {
     	if(err) {
     	    return console.log(err);
